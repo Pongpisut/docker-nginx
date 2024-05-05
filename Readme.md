@@ -1,15 +1,15 @@
-# Start container
+# Start Container
 
-docker-compose up
+docker-compose up -d
 
-# Stop container
+# Stop Container
 
 docker-compose down
 
-# Url phpmyadmin
+# Url Phpmyadmin
 
 http://localhost:8000/
 
-# Password phpmyadmin
+# Password Phpmyadmin
 
 password: MYSQL_ROOT_PASSWORD

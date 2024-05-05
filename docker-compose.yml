@@ -2,7 +2,8 @@ version: "3.8"
 
 services:
   nginx:
-    image: wyveo/nginx-php-fpm:php82
+    container_name: nginx
+    image: wyveo/nginx-php-fpm:latest
     volumes:
       - ./nginx:/nginx/
       - ./html:/usr/share/nginx/html
